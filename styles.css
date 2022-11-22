@@ -1,0 +1,36 @@
+body{
+    background-color:#BCBCD5
+  }
+  .datetime{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    background: #BCBCD5;
+    border: 3px solid #E9E7EE;
+    width:340px;
+    height:40vh;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    font-size:20px;
+    transition: .5s;
+    transition-property: background, box-shadow;
+  }
+  
+  .datetime:hover{
+  background: #5555B4;
+    border: transparent;
+    box-shadow: 0 0 30px #2C2C63;
+  }
+  #time{
+    margin-top:10px;
+    padding:10px;
+    font-size:30px;
+  }
+  
+  #period{
+  background-color:#E9E7EE;
+    padding:5px;
+  }
+  
