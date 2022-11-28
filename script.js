@@ -1,14 +1,11 @@
 // program to display the date
-// get local machine date time
-const date = new Date();
+// 1000 milliseconds seconds in 1 second
 
-// get the date as a string
-const n = date.toDateString();
 
-// get the time as a string
-const time = date.toLocaleTimeString();
+setInterval(myTimer, 1000);
 
-// display date
-document.getElementById("date").innerHTML = `${n} 
-${time}`
+function myTimer() {
+  const date = new Date();
+  document.getElementById("date").innerHTML = date.toLocaleTimeString();
+}
 
